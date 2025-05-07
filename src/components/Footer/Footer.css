@@ -1,0 +1,76 @@
+.netflix-footer {
+    position: relative;
+    padding: 40px 20px;
+    color: #999;
+    background-color: #000;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  
+  .footer-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 0;
+    opacity: 0.05;
+  }
+  
+  .footer-bg-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .footer-container {
+    position: relative;
+    z-index: 1;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .footer-links-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 12px;
+    margin-bottom: 30px;
+  }
+  
+  .footer-link {
+    color: #999;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-link:hover {
+    color: #fff;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+  
+  .footer-lang-btn {
+    background: transparent;
+    border: 1px solid #999;
+    color: #999;
+    padding: 6px 12px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .footer-lang-btn:hover {
+    color: #fff;
+    border-color: #fff;
+  }
+  
+  .footer-copy {
+    font-size: 13px;
+  }
+  

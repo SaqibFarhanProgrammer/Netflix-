@@ -1,0 +1,143 @@
+.home {
+    height: 100vh;
+    width: 100vw;
+    background-color: #000000;
+}
+
+.hero {
+    position: relative;
+
+}
+
+.hero-img {
+    width: 110%;
+    height: 100vh;
+    mask-image: linear-gradient(to right, transparent, black 75%);
+}
+
+.hero-title {
+    position: absolute;
+    bottom: 50%;
+    left: 5%;
+    width: 400px;
+    color: white;
+    text-align: center;
+}
+
+.hero p {
+    color: white;
+    position: absolute;
+    bottom: 39%;
+    max-width: 720px;
+    left: 5%;
+}
+
+.hero-btns {
+    position: absolute;
+    display: flex;
+    gap: 30px;
+    bottom: 31%;
+    left: 5%;
+}
+
+.hero-btns button {
+    color: #ffffff;
+    padding: 15px 70px;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #ffffff;
+    gap: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+
+}
+
+.hero-btns button:nth-child(1) {
+    background: #ffffff;
+    color: #000000;
+}
+
+.hero-btns img {
+    width: 20px;
+    height: 20px;
+    color: white;
+    margin-left: 5px;
+}
+@media screen and (max-width: 480px) {
+
+    .home {
+        height: 100vh;
+        width: 100vw;
+        background-color: #000000;
+        overflow: hidden;
+    }
+
+    .hero {
+        height: 100vh;
+        width: 100vw;
+        position: relative;
+        background-color: #000000;
+    }
+
+    .hero-img {
+        width: 110%;
+        height: 100vh;
+        object-fit: cover;
+        mask-image: linear-gradient(to right, transparent, black 50%);
+    }
+
+    .hero-title {
+        position: absolute;
+        bottom: 54%;
+        left: 10%;
+        width: 70vw;
+        color: white;
+        text-align: left;
+        font-size: 18px;
+    }
+
+    .hero p {
+        color: white;
+        position: absolute;
+        bottom: 24%;
+        max-width: 90vw;
+        left: 10%;
+        font-size: 9px;
+    }
+
+    .hero-btns {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        bottom: 5%;
+        left: 5%;
+        width: 90vw;
+    }
+
+    .hero-btns button {
+        color: #ffffff;
+        padding: 12px 0;
+        background: transparent;
+        border: 1px solid #ffffff;
+        cursor: pointer;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .hero-btns button:nth-child(1) {
+        background: #ffffff;
+        color: #000000;
+    }
+
+    .hero-btns img {
+        width: 16px;
+        height: 16px;
+        margin-left: 6px;
+    }
+}

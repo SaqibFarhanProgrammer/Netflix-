@@ -1,0 +1,239 @@
+.login {
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.749), rgba(0, 0, 0, 0.315)),
+    url(../../assets/background_banner.jpg);
+  background-size: cover;
+  z-index: 0;
+}
+
+.login h2 {
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+  margin-top: 20px;
+}
+
+.logo-login {
+  width: 150px;
+  margin: 40px;
+}
+
+.login-form {
+  width: 100%;
+  max-width: 450px;
+  height: 500px;
+  display: flex;
+  border-radius: 2px;
+  flex-direction: column;
+  margin: auto;
+  padding: 20px 60px;
+  background: rgba(0, 0, 0, 0.806);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 30px;
+}
+
+form input {
+  width: 90%;
+  height: 50px;
+  border: none;
+  padding: 10px;
+  margin-top: 2px;
+  background: transparent;
+  border: 1px solid rgb(169, 169, 169);
+  margin-bottom: 20px;
+  color: white;
+}
+
+form input::placeholder {
+  color: rgb(231, 231, 231);
+  font-size: 14px;
+  font-weight: 300;
+}
+
+form input:focus {
+  outline: none;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+form button {
+  width: 90%;
+  height: 50px;
+  border: none;
+  background-color: #e40f12;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.help {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+  color: white;
+}
+
+.help label {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.help input {
+  height: 20px;
+  border: none;
+  margin-top: 2px;
+  background: transparent;
+  border: 1px solid rgb(169, 169, 169);
+}
+
+.help .left {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  width: 10%;
+}
+
+.help .right {
+  display: flex;
+  margin-bottom: 16px;
+  justify-content: center;
+  cursor: pointer;
+  align-items: center;
+}
+
+@media screen and (max-width: 480px) {
+  .login {
+      height: 100vh;
+      width: 100vw;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.749), rgba(0, 0, 0, 0.315)),
+          url(../../assets/background_banner.jpg);
+      background-size: cover;
+      z-index: 0;
+  }
+
+  .login h2 {
+      font-size: 24px;
+      font-weight: 600;
+      color: white;
+      margin-top: 20px;
+  }
+
+  .logo-login {
+      width: 120px;
+      margin: 20px;
+  }
+
+  .login-form {
+      width: 80%;
+      max-width: 450px;
+      height: auto;
+      display: flex;
+      border-radius: 2px;
+      flex-direction: column;
+      margin: auto;
+      padding: 15px 40px;
+      background: rgba(0, 0, 0, 0.806);
+  }
+
+  form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      height: auto;
+      margin-top: 20px;
+  }
+
+  form input {
+      width: 100%;
+      height: 45px;
+      border: none;
+      padding: 10px;
+      margin-top: 5px;
+      background: transparent;
+      border: 1px solid rgb(169, 169, 169);
+      margin-bottom: 15px;
+      color: white;
+  }
+
+  form input::placeholder {
+      color: rgb(231, 231, 231);
+      font-size: 12px;
+      font-weight: 300;
+  }
+
+  form input:focus {
+      outline: none;
+      border: 1px solid rgb(255, 255, 255);
+  }
+
+  form button {
+      width: 100%;
+      height: 50px;
+      border: none;
+      background-color: #e40f12;
+      color: rgb(255, 255, 255);
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+  }
+
+  .help {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      margin-top: 20px;
+      color: white;
+  }
+
+  .help label {
+      color: white;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+  }
+
+  .help input {
+      height: 20px;
+      border: none;
+      margin-top: 2px;
+      background: transparent;
+      border: 1px solid rgb(169, 169, 169);
+  }
+
+  .help .left {
+      display: flex;
+      justify-content: space-between;
+      gap: 5px;
+      width: 20%;
+  }
+
+  .help .right {
+      display: flex;
+      margin-bottom: 16px;
+      justify-content: center;
+      cursor: pointer;
+      align-items: center;
+  }
+}
